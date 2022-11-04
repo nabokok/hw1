@@ -6,6 +6,6 @@ const initials = userNames.map((name) => {
         return item[0];
     })
     .join(".");
-});
+}).sort();
 
 console.log(initials); 
